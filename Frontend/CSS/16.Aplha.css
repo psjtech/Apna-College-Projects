@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* alpha affects the opacity of the color */
+    /* background-color: rgba(173, 173, 28, 0.688); */
+    background-color: #ff000066;
+}
+
+#opacity{
+    /* opacity sets the opacity of the whole element */
+    background-color: #ffaa51;
+    opacity: 0.7;
+}

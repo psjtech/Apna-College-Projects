@@ -1,0 +1,120 @@
+/* Universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element selector */
+h1,h3{
+    color: #b92b27;
+}
+
+/* ID selector */
+#login{
+    background-color: #b92b27;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* class selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Descendant selector */
+.vote a {
+    color: purple;
+    background-color: burlywood;
+}
+
+nav ul li{
+    color: firebrick;
+}
+
+/* Adjacent sibling combinator */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: skyblue;
+    color: darkblue;
+}
+
+/* Child Combinator */
+div > input{
+    background-color: aqua;
+}
+
+/* Attribute Selector */
+input[type = "text"]{
+    color: green;
+}
+
+input[type = "password"]{
+    color: red;
+}
+
+input[type]{
+    background-color: beige;
+}
+
+/* Practice qs */
+/* #myID{
+    color: darkmagenta;
+} */
+
+div[id="myID"] p{
+    color:magenta;
+}
+
+/* Pseudo Class */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+.vote:nth-of-type(1n){
+    background-color: bisque;
+}
+
+/* Pseudo element */
+h1::first-letter{
+    color: yellow;
+}
+
+p::first-line{
+    color:purple;
+}
+
+p::selection{
+    background-color: blanchedalmond;
+}
+
+/* Cascading */
+
+h3{
+    background-color: azure !important;
+}
+/* The property that is written in last must be executed given that the selector must be the same */
+h3{
+    background-color:darkblue;
+}

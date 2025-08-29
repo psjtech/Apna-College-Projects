@@ -1,0 +1,20 @@
+h2{
+ background-color: pink;
+ display: inline;
+}
+
+span{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 30px;
+}
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 30px;
+}
